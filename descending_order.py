@@ -7,6 +7,9 @@ def descending_order(num):
         digits.append(i)
         
     digits.sort(reverse = True)
-    print(digits)
     
     return int("".join(digits))
+
+
+def Descending_Order_alternate(num):
+    return int("".join(sorted(str(num), reverse=True)))
