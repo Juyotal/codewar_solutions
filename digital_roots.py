@@ -17,3 +17,7 @@ def get_sum(n):
     for i in n_str:
         sum += int(i) 
     return sum
+
+
+def digital_root_alternate(n):
+    return n if n < 10 else digital_root_alternate(sum(map(int,str(n))))
