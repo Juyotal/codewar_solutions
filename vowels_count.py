@@ -5,3 +5,6 @@ def get_count(sentence):
         if i in vowels:
             count += 1
     return count
+
+def getCount(inputStr):
+    return sum(1 for let in inputStr if let in "aeiouAEIOU")
