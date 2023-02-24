@@ -3,7 +3,6 @@ def wave(people):
     
     for i in range(len(people)):
         result = ""
-         
         if people[i] != " ":
             result = people[:i] + people[i].upper() + people[(i+1):]
             arr.append(result)
